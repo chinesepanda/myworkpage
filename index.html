@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html class="" lang="en"><head>
     <meta charset="UTF-8">
     <title>简历生成器</title>
     <link rel="stylesheet" href="static/css/style.css">
@@ -12,193 +9,196 @@
     <script src="static/js/script.js"></script>
 </head>
 
-<body>
+<body style="padding-right: 0px;">
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
-                <div class="portrait"></div>
-                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
-                    <h3>请输入图片URL地址：</h3>
-                    <br/>
-                    <input type="text" id="avatar-url">
-                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-                </div>
-                <h1 id="username" >ekCit</h1>
-                <h4 id="persona-tag" >Python / Web / 互联网教育</h4>
+                <div class="portrait" style="background-image: url(&quot;&quot;);"></div>
+                
+                <h1 id="username" contenteditable="true">张庆锐<br></h1>
+                <h4 id="persona-tag" contenteditable="true">C++/ 计算机视觉 / 深度学习<br></h4>
             </div>
             <div class="profile info-unit">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">姓名</label><span class="label-value">XXX</span></li>
+                        <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true">张庆锐</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                        <label class="left-label" contenteditable="true">学历</label><span class="label-value" contenteditable="true">硕士</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">毕业院校</label><span class="label-value">北京邮电大学</span></li>
+                        <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true">山东大学</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
+                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">2018</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="contact info-unit">
-                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: visible;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: visible;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
-                        <label class="left-label">手机</label><span class="label-value">182XXXXXXXX</span></li>
+                        <label class="left-label" contenteditable="true">手机</label><span class="label-value" contenteditable="true">13006578259</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">邮箱</label><span class="label-value">crmrc2014@gmail.com</span></li>
+                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">zhangqingrui1993@126.com</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">个人主页</label><span class="label-value">exit-tixe.me</span></li>
-                    <li>
-                        <label class="left-label">Github</label><span class="label-value">github.com/ekCit</span></li>
+                        <label class="left-label" contenteditable="true">地址</label><span class="label-value" contenteditable="true">山东省济南市山大南路27号</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                 </ul>
             </div>
             <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="progress-list">
                     <li>
-                        <label class="left-label">Python</label>
-                        <progress value="80" max="100"></progress>
-                    </li>
+                        <label class="left-label" contenteditable="true">C/C++</label>
+                        <progress value="93.75" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">html/css</label>
-                        <progress value="70" max="100"></progress>
-                    </li>
+                        <label class="left-label" contenteditable="true">opencv</label>
+                        <progress value="80.46875" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">Javascript</label>
+                        <label class="left-label" contenteditable="true">Caffe</label>
                         <progress value="60" max="100"></progress>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label">机器学习</label>
-                        <progress value="60" max="100"></progress>
-                    </li>
+                        <label class="left-label" contenteditable="true">python</label>
+                        <progress value="46.09375" max="100"></progress>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="stack info-unit">
-                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">获得奖项</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="stack-list">
                     <li>
-                        <label class="left-label">前端</label><span class="label-value">jQuery、Angular.js、React.js</span></li>
-                    </li>
+                        <label class="left-label" contenteditable="true">2015、2016年</label><span class="label-value" contenteditable="true">山东大学 学业奖学金二等奖</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
                     <li>
-                        <label class="left-label">后端</label><span class="label-value">Flask、Django、Twisted、Node.js、MongoDB、MySQL、Redis</span></li>
-                    </li>
-                    <li>
-                        <label class="left-label">其它</label><span class="label-value">我全都是瞎写的。</span></li>
-                    </li>
-                </ul>
+                        <label class="left-label" contenteditable="true">2013、2014年</label><span class="label-value" contenteditable="true">中国海洋大学 社会实践奖学金</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    
+                    
+                <li>
+                        <label class="left-label" contenteditable="true">2011年</label><span class="label-value" contenteditable="true">中国海洋大学 “迎新杯”辩论赛最佳辩手</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li><li>
+                        <label class="left-label" contenteditable="true">2013年</label><span class="label-value" contenteditable="true">中国海洋大学 “环球知识竞赛”团体一等奖</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
             </div>
 
             <div class="code info-unit">
-                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title" contenteditable="true">个人微信</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <div class="weixin">
-                    <img src="static/image/weixin.png" alt="">
+                    <img src="" alt="">
 
                 </div>
             </div>
-            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
-                <h3>请输入图片URL地址：</h3>
-                <br/>
-                <input type="text" id="weixin-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-            </div>
+            
         </div>
         <div class="main">
             <div class="education info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京邮电大学 - 网络工程专业（本科）2012-2017</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </li>
-                </ul>
+                        <h3 contenteditable="true">中国海洋大学&nbsp;&nbsp;&nbsp; 电子信息科学与技术专业&nbsp;&nbsp;&nbsp;&nbsp; 学士&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2011.08-2015.06</h3>
+                        <p contenteditable="true">
+
+
+    
+    
+    
+    <style type="text/css">p { margin-bottom: 0.25cm; direction: ltr; color: rgb(0, 0, 0); line-height: 120%; text-align: justify; }p.western { font-family: "Times New Roman",serif; font-size: 10pt; }p.cjk { font-family: "宋体","SimSun"; font-size: 10pt; }p.ctl { font-family: "Times New Roman",serif; font-size: 10pt; }a:link { color: rgb(0, 0, 255)</style> 主要课程：高等数学、C语言、数字电路、数字图像处理、C++、通信电子电路、信号与系统、通信原理等。</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true">山东大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 信息与通信工程专业&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 硕士&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015.09-今</h3>
+                        <p contenteditable="true">研究方向：图像处理与深度学习。</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
             </div>
             <div class="work info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">个人能力</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>北京创客空间－实习生（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">获得证书</h3>
+                        <p contenteditable="true">计算机等级考试二级（C语言）、三级（网络技术）证书；二维CAD高级绘图师；</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>实验楼－课程内容（实习）</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
-                </ul class="experience-list">
+                        <h3 contenteditable="true">
+
+
+    
+    
+    
+    <style type="text/css">p { margin-bottom: 0.25cm; direction: ltr; color: rgb(0, 0, 0); line-height: 120%; text-align: justify; }p.western { font-family: "Times New Roman",serif; font-size: 10pt; }p.cjk { font-family: "宋体","SimSun"; font-size: 10pt; }p.ctl { font-family: "Times New Roman",serif; font-size: 10pt; }a:link { color: rgb(0, 0, 255);</style>编程能力
+
+</h3>
+                        <p contenteditable="true">熟悉C/C++与opencv开发，熟悉VS、gcc等开发工具，熟悉Linux系统操作，掌握python、MATLAB、VHDL等语言；<br></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true">英语能力<br></h3>
+                        <p contenteditable="true">CET-6 479分；<br></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
             </div>
             <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">项目经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>基于 Qt 5 的文本编辑器</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <br/>
+                        <h3 contenteditable="true">手势识别关键技术研究及其在智能电视中的应用&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015.09-2016.12</h3>
+                        <p contenteditable="true">·山东省自然科学基金项目；<br>·项目基于C/C++和opencv库开发，实现了在单目摄像头条件下对于手势的实时检测和&nbsp; 识别，以及人机交互功能；<br>·本人负责目标分割方面的技术选型以及整个项目的代码实现；<br>
                         </p>
-                    </li>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>基于 Flask 的主机监视系统</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">液态岩棉流股检测系统&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2016.10-2017.05</h3>
+                        <p contenteditable="true">·企业委托横向项目；<br>·项目基于C/C++、opencv库以及MicrovisionSDK开发一整套流股软硬件检测与控制系统，利用工业摄像机实现了在高温熔岩环境下，对高温熔岩流股的实时数字化检测以及PLC控制；<br>·本人负责软硬件方案的技术选型以及整个项目的代码实现；</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>基于 Live2D 与 clmtrackr 的山寨 Facerig</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">一种深度融合显著性检测与先验知识的手部区域分割方法&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2016.11</h3>
+                        <p contenteditable="true">·国家发明专利；<br>·针对现有的手部检测技术未能充分利用先验知识，在克服复杂背景干扰特别是近肤色背景干扰能力上的有较大的缺陷，提出了一种融合图像显著性检测与肤色先验知识的手部区域分割算法；<br>·学生第一发明人；</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <h3>如果项目太少，可以在实验楼上找项目做啊:D</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </li>
+                        <h3 contenteditable="true">基于web扇贝基因序列比对系统的构建与研究&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2013.06-2014.05</h3>
+                        <p contenteditable="true">·中国海洋大学本科生研究发展计划（OUC-SRDP）项目；<br>·项目基于Linux操作系统，整合NCBI Blast技术，搭建起可以提供扇贝基因比对功能的网络平台；<br>·负责Linux系统服务器的搭建维护；</p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="trophy info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title" contenteditable="true">实践经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
-                        <h3>小学生作文二等奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
+                        <h3 contenteditable="true">中国海洋大学 大学生职业发展协会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2011.09-2014.06</h3>
+                        <p contenteditable="true">·担任部门干事，秘书处部长，副主席；<br>·组织统筹中国海洋大学第十届校园模拟招聘大赛（到场人数500）、第二届职业生涯规划大赛（到场人数300）、职业规划讲座（到场人数200）等活动，主要负责活动的流程控制、人员物资调配以及部门协调；<br></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li> 
                     <li>
-                        <h3>曾获统一冰红茶“再来一瓶”奖</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
-                        </p>
-                    </li> 
+                        <h3 contenteditable="true">中国海洋大学 华为校园俱乐部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2013.07-2014.06<br></h3>
+                        <p contenteditable="true">·担任部门干事，管理部部长；<br>·主要负责本社团校园活动以及校园活动的流程安排和人员分工工作，参与组织了“华为杯”程序设计大赛、华为校园编码达人秀等活动；<br></p>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li> 
                     <li>
-                        <h3>这一行也是为了凑版面</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        <h3 contenteditable="true">大学生暑期“三下乡”社会实践项目&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2012.06-2012.08<br></h3>
+                        <p contenteditable="true">
+                            ·项目题目《探究乡镇经济转型发展模式—以商河地热能源应用、特色旅游发展为例》，通过实地走访政府和企业等途径，总结出当地地热资源和旅游经济结合发展的新方式，并为当地乡镇发展提出书面形式的建议报告书，活动被报道刊登于当年7月《济南日报》；<br>·主要负责项目选题、调研地接收单位的联络以及调研计划制定；<br>
                         </p>
-                    </li>                     
-            </div>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>                     
+            </ul></div>
             <div class="aboutme info-unit right-paragraph">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title" contenteditable="true">自我评价</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
                 <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <p contenteditable="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 热爱计算机和互联网技术，对新技术有充分的好奇心；自学能力强；有较强的团队意识。<br></p>
             </div>
         </div>
     </div>
-</body>
 
-</html>
+
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal" tabindex="-1">
+                    <h3 contenteditable="true">请输入图片URL地址：</h3>
+                    <br>
+                    <input id="avatar-url" type="text">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal" tabindex="-1">
+                <h3 contenteditable="true">请输入图片URL地址：</h3>
+                <br>
+                <input id="weixin-url" type="text">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div></div></body></html>

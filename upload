@@ -1,0 +1,4 @@
+git add .
+git commit -m 'commit my page'
+git remote add origin https://github.com/chinesepanda/myworkpage.git
+git push -u origin master
